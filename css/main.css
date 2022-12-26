@@ -1,0 +1,107 @@
+.clearfix {
+	clear: both;
+}
+
+.main-wrapper {
+	background-color: #c4c4c4;
+	padding: 50px;
+	width: 1000px;
+	height: 660px;
+	margin: 0 auto;
+}
+
+.sect-wrapper {
+	background-color: #e6e6e6;
+	margin-bottom: 30px;
+}
+
+.first-section > .first-block,
+.second-section > .first-block {
+	float: left;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 60px 0px 60px;
+	background-color: #fc8f8f;
+	width: 200px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.first-section .second-block {
+	float: right;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 60px 0px 60px;
+	background-color: #fc8f8f;
+	width: 200px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.second-section .second-block,
+.second-section .third-block,
+.second-section .fourth-block,
+.second-section .fifth-block {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	padding: 30px 0px 30px;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	text-align: center;
+	background-color: #fc8f8f;
+	color: #ffffff;
+	box-sizing: content-box;
+	margin-left: 10px;
+}
+
+.second-section-order,
+.third-section-order {
+	float: right;
+}
+
+.third-section > .first-block,
+.third-section > .second-block {
+	float: left;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 60px 0px 60px;
+	background-color: #fc8f8f;
+	width: 200px;
+	height: 80px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+}
+
+.third-section .third-block,
+.third-section .fourth-block {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 60px 0px 60px;
+	background-color: #fc8f8f;
+	width: 200px;
+	height: 80px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+	margin: 0px 0px 0px 10px;
+}
